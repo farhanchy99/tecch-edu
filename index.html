@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech-Edu</title>
+
+    <script src="https://kit.fontawesome.com/16cd89b9b6.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+  </head>
+
+  <body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+            <div class="container">
+              <a class="navbar-brand col-lg-3 fs-2 fw-bold text-danger" href="#">Tech-Edu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item px-3">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">Register</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">F&Q</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link " aria-current="page" href="#">Contact Us</a>
+                  </li>
+                  
+                </ul>  
+                <form class="float-lg-end" role="search">
+                  <button class="btn btn-outline-danger" type="submit">Research</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+        <section class="slider container mt-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="xcarousel-item">
+                    <img src="img/cover-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="display-4 fw-bold">Discover a limitless world of learning</h5>
+                        <p>The Instructure Learning Platform makes edtech more personal and student success more equitable.</p>
+                        <button class="btn btn-danger mt-3" type="submit">Explore Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cover-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h5 class="display-4 fw-bold">Online learning</h5>
+                      <p>Build skills with courses, certificates, and degrees online from world-class universities and companies</p>
+                      <button class="btn btn-danger mt-3" type="submit">Explore Now</button>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/cover-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h5 class="display-4 fw-bold">Learn new skills online with top educators</h5>
+                      <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+                      <button class="btn btn-danger mt-3" type="submit">Explore Now</button>
+                  </div>
+                </div>
+                
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+        </section>
+
+    </header>
+
+    <main>
+        <section class="container my-5">
+            <div class="head d-flex justify-content-center align-items-center text-center my-5 pt-5">
+                <div class="px-5">
+                    <h1>Our featured courses</h1>
+                    <p>Explore Our Popular Online Courses</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-lg-6 col-md-12 col-sm-6">
+                    <div class="shadow bg-light rounded-3 d-block d-lg-flex d-md-flex">
+                        <img src="img/course/course-1.png" class="img-fluid col-lg-6 col-md-6" alt="">
+                        <div class="cat-info m-auto p-3">
+                            <h3 class="fw-bolder">Sketch</h3>
+                            <p class="text-muted">Sketch from A to Z: for app designer</p>
+                            <a href="#" class="link-danger"><h5>Price: 350$</h5></a>
+                        </div>
+                    </div> 
+                </div> 
+                <div class="col-lg-6 col-md-12 col-sm-6">
+                  <div class="shadow bg-light rounded-3 d-block d-lg-flex d-md-flex">
+                      <img src="img/course/course-2.png" class="img-fluid col-lg-6 col-md-6" alt="">
+                      <div class="cat-info m-auto p-3">
+                          <h3 class="fw-bolder">Adobe Photoshop</h3>
+                          <p class="text-muted">Graphic Design Masterclass Full Course</p>
+                          <a href="#" class="link-danger"><h5>Price: 350$</h5></a>
+                      </div>
+                  </div> 
+              </div>
+
+              <div class="col-lg-6 col-md-12 col-sm-6">
+                <div class="shadow bg-light rounded-3 d-block d-lg-flex d-md-flex">
+                    <img src="img/course/course-3.png" class="img-fluid col-lg-6 col-md-6" alt="">
+                    <div class="cat-info m-auto p-3">
+                        <h3 class="fw-bolder">Figma</h3>
+                        <p class="text-muted">Create a Design System in Figma Full Course</p>
+                        <a href="#" class="link-danger"><h5>Price: 350$</h5></a>
+                    </div>
+                </div> 
+            </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-6">
+                    <div class="shadow bg-light rounded-3 d-block d-lg-flex d-md-flex">
+                        <img src="img/course/course-4.png" class="img-fluid col-lg-6 col-md-6" alt="">
+                        <div class="cat-info m-auto p-3">
+                          <h3 class="fw-bolder">JavaScript</h3>
+                          <p class="text-muted">JavaScript: Full Understanding Course</p>
+                          <a href="#" class="link-danger"><h5>Price: 350$</h5></a>
+                      </div>
+                    </div> 
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-6">
+                  <div class="shadow bg-light rounded-3 d-block d-lg-flex d-md-flex">
+                      <img src="img/course/course-5.png" class="img-fluid col-lg-6 col-md-6" alt="">
+                      <div class="cat-info m-auto p-3">
+                        <h3 class="fw-bolder">HTML-5</h3>
+                        <p class="text-muted">Build Responsive Websites with HTML</p>
+                        <a href="#" class="link-danger"><h5>Price: 350$</h5></a>
+                    </div>
+                  </div> 
+              </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-6"> 
+                    <div class="shadow bg-light rounded-3 d-block d-lg-flex d-md-flex">
+                        <img src="img/course/course-6.png" class="img-fluid col-lg-6 col-md-6" alt="">
+                        <div class="cat-info m-auto p-3">
+                          <h3 class="fw-bolder">CSS-3</h3>
+                          <p class="text-muted">Build Websites with CSS Full Course</p>
+                          <a href="#" class="link-danger"><h5>Price: 350$</h5></a>
+                      </div>
+                    </div> 
+                </div>      
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-danger my-5" type="submit">See More Courses</button>
+            </div>
+        </section>
+
+        <section class=" container mt-5">
+            <div class="card mb-3">
+                <div class="row g-3">
+                  <div class="col-lg-6 col-md-4">
+                    <img src="img/working.png" class="img-fluid h-100" alt="">
+                  </div>
+                  <div class="col-lg-6 col-md-8 m-auto">
+                    <div class="card-body">
+                      <h1 class="card-title display-3">About Us</h1>
+                      <p class="card-text">With secure accounts, simplified logins, and a digital classroom to love, educators can ensure students are ready on the first day, and every day, with Clever. All your digital learning resources are securely together on one platform—providing easy access for teachers, students, and staff.</p>
+                        <button class="btn btn-danger my-3 my-lg-3" type="submit">Read More</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section class="register container mt-5 ">
+            <div class="container bg-danger text-center text-lg-start p-5">
+                <div class="row d-inline-block d-lg-flex align-items-center p-lg-4">
+                    <div class="col-lg-6 ">
+                      <h1 class="text-white">Ready to join?</h1>
+                      <p class="text-light">We continually invest in people, practices, and infrastructure to safeguard student data. Ready to explore our learning ecosystem?</p>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block">
+
+                    </div>
+                    
+                    
+                  <div class="display-block col-lg-3">
+
+                  <button type="button" class="btn btn-outline-light float-lg-end fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+                  
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Recipient:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Send message</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                </div>
+
+            </div>
+         </section>
+
+
+        <section class="container py-5 my-5">
+            <div class="w-lg-50 my-5">
+                <h1>Our Successful Student</h1>
+                <p>We empower students to support their entire classroom. 90% students who have used Tech-Edu have found us effective.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-lg-3">
+                  <div class="card h-100">
+                    <img src="img/student/student-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Awlad Hossain</h5>
+                      <p class="card-text">UIUX Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card h-100">
+                    <img src="img/student/student-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jannatul Islam</h5>
+                      <p class="card-text">Motion Design</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card h-100">
+                    <img src="img/student/student-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Imran Hossain</h5>
+                      <p class="card-text">Graphic Designer</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <div class="card h-100">
+                    <img src="img/student/student-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nishi Akter</h5>
+                      <p class="card-text">Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="text-center">
+                <button class="btn btn-danger fw-bold px-4 my-5" type="submit">View All</button>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <div class="my-5 text-center">
+                <h1 class="w-lg-50 mx-auto">Some Valuable Feedback From Our Students</h1>
+            </div>
+            
+            <div>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container d-flex align-items-center justify-content-center">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card border-secondary p-4">
+                                          <div class="d-inline-block mb-4">
+                                            <i class="fas fa-quote-left text-muted fs-1 pe-2"></i>
+                                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0 float-end my-2">
+                                              <li><i class="fas fa-star fa-sm"></i></li>
+                                              <li><i class="fas fa-star fa-sm"></i></li>
+                                              <li><i class="fas fa-star fa-sm"></i></li>
+                                              <li><i class="fas fa-star fa-sm"></i></li>
+                                              <li><i class="fas fa-star fa-sm"></i></li>
+                                            </ul>
+                                          </div>
+                                          
+
+                                          <p class="text-muted">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                            officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                          </p>
+
+                                          <div class="d-flex">
+
+                                          <img class="rounded-circle shadow-1-strong mb-4 me-4"
+                                          src="img/student/student-4.png" alt="avatar"
+                                          style="width: 50px;" />
+                                          <div>
+                                            <h5 class="mb-1">Anna Deynah</h5>
+                                            <p>UX Designer</p>
+
+                                          </div>
+                                          </div>
+                                          
+                                          
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-lg-6">
+                                      <div class="card border-secondary p-4">
+                                        <div class="d-inline-block mb-4">
+                                          <i class="fas fa-quote-left text-muted fs-1 pe-2"></i>
+                                          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0 float-end my-2">
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                            <li><i class="fas fa-star fa-sm"></i></li>
+                                          </ul>
+                                        </div>
+                                        
+
+                                        <p class="text-muted">
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                          officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                        </p>
+
+                                        <div class="d-flex">
+
+                                        <img class="rounded-circle shadow-1-strong mb-4 me-4"
+                                        src="img/student/student-3.png" alt="avatar"
+                                        style="width: 50px;" />
+                                        <div>
+                                          <h5 class="mb-1">Anna Deynah</h5>
+                                          <p>UX Designer</p>
+
+                                        </div>
+                                        </div>
+                                        
+                                        
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="card border-secondary p-4">
+                                      <div class="d-inline-block mb-4">
+                                        <i class="fas fa-quote-left text-muted fs-1 pe-2"></i>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0 float-end my-2">
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                        </ul>
+                                      </div>
+                                      
+
+                                      <p class="text-muted">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                      </p>
+
+                                      <div class="d-flex">
+
+                                      <img class="rounded-circle shadow-1-strong mb-4 me-4"
+                                      src="img/student/student-2.png" alt="avatar"
+                                      style="width: 50px;" />
+                                      <div>
+                                        <h5 class="mb-1">Anna Deynah</h5>
+                                        <p>UX Designer</p>
+
+                                      </div>
+                                      </div>
+                                      
+                                      
+                                    </div>
+                                </div>
+                    
+                                <div class="col-lg-6">
+                                  <div class="card border-secondary p-4">
+                                    <div class="d-inline-block mb-4">
+                                      <i class="fas fa-quote-left text-muted fs-1 pe-2"></i>
+                                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0 float-end my-2">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                      </ul>
+                                    </div>
+                                    
+
+                                    <p class="text-muted">
+                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                      officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                    </p>
+
+                                    <div class="d-flex">
+
+                                    <img class="rounded-circle shadow-1-strong mb-4 me-4"
+                                    src="img/student/student-4.png" alt="avatar"
+                                    style="width: 50px;" />
+                                    <div>
+                                      <h5 class="mb-1">Anna Deynah</h5>
+                                      <p>UX Designer</p>
+
+                                    </div>
+                                    </div>
+                                    
+                                    
+                                  </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="card border-secondary p-4">
+                                      <div class="d-inline-block mb-4">
+                                        <i class="fas fa-quote-left text-muted fs-1 pe-2"></i>
+                                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0 float-end my-2">
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                          <li><i class="fas fa-star fa-sm"></i></li>
+                                        </ul>
+                                      </div>
+                                      
+
+                                      <p class="text-muted">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                        officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                      </p>
+
+                                      <div class="d-flex">
+
+                                      <img class="rounded-circle shadow-1-strong mb-4 me-4"
+                                      src="img/student/student-2.png" alt="avatar"
+                                      style="width: 50px;" />
+                                      <div>
+                                        <h5 class="mb-1">Anna Deynah</h5>
+                                        <p>UX Designer</p>
+
+                                      </div>
+                                      </div>
+                                      
+                                      
+                                    </div>
+                                </div>
+                    
+                                <div class="col-md-12 col-lg-6">
+                                  <div class="card border-secondary p-4">
+                                    <div class="d-inline-block mb-4">
+                                      <i class="fas fa-quote-left text-muted fs-1 pe-2"></i>
+                                      <ul class="list-unstyled d-flex justify-content-center text-warning mb-0 float-end my-2">
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                        <li><i class="fas fa-star fa-sm"></i></li>
+                                      </ul>
+                                    </div>
+                                    
+
+                                    <p class="text-muted">
+                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                      officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                                    </p>
+
+                                    <div class="d-flex">
+
+                                    <img class="rounded-circle shadow-1-strong mb-4 me-4"
+                                    src="img/student/student-1.png" alt="avatar"
+                                    style="width: 50px;" />
+                                    <div>
+                                      <h5 class="mb-1">Anna Deynah</h5>
+                                      <p>UX Designer</p>
+
+                                    </div>
+                                    </div>
+                                    
+                                    
+                                  </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="container my-5">
+          <div class="my-5 text-center">
+            <h1>F&Q</h1>
+            <p>GET ANSWERS TO FREQUENTLY ASKED QUESTIONS</p>
+          </div>
+          <div class="w-75 mx-auto">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button fw-bold text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What Is Difference Between Flex-Box and Grid?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed fw-bold text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What Is Difference Between BootStrap and Tailwind?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Tailwind offers predesigned widgets to build a site from scratch with fast UI development.	Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed fw-bold text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What Is CSS Box Model?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed fw-bold text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    What Is Semantic Tag?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+
+        <section class="container d-none d-lg-block my-5">
+          <div class="my-5 text-center">
+            <h1>Our Companies</h1>
+          </div>
+
+          <div class=" mx-auto">
+            <div class="row align-items-center text-center">
+              <div class="col-2">
+                <img src="img/company/company-1.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-2">
+                <img src="img/company/company-2.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-2">
+                <img src="img/company/company-3.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-2">
+                <img src="img/company/company-4.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-2">
+                <img src="img/company/company-5.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-2">
+                <img src="img/company/company-6.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+    </main>
+
+    <footer>
+      <div class="container-fluid bg-danger text-center text-white p-5">
+        <div class="w-lg-25 mx-auto">
+          <h1>Tech-edu</h1>
+          <p>Office 35, Burj Khalifa, Dubai, United Arab Emirates</p>
+            <div class="my-3">
+              <a href="#" class="link-light">Privacy Policy</a> |
+              <a href="#" class="link-light">Terms Of Us</a>
+            </div>
+        </div>
+        <div class="text-white">
+          <a href="#" class="link-light p-1"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="link-light p-1"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="link-light p-1"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="link-light p-1"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+
+</html>
