@@ -1,6 +1,8 @@
 a{
     text-decoration: none;
 }
+
+/* Main-slider-css start */
 .slider .carousel-item img{
     object-fit: cover;
     object-position: center;
@@ -29,3 +31,4 @@ a{
     color: #dc3545;
     border: 1px solid white;
 }
+/* Main-slider-css end */
